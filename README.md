@@ -49,6 +49,52 @@ An **Object** in an instance of a Class. Technically, it is just a block of memo
 An **Interface** is a class with no implementation. The only thing that it contains is the declaration of methods, properties, and events.
 </details>
 
+### 5. What be the output of the following code?
+
+```
+class A
+{
+    public virtual void Say()
+    {
+        Console.WriteLine("A");
+    }
+}
+
+class B: A
+{
+    public override void Say()
+    {
+        Console.WriteLine("B");
+    }
+}
+
+class C:B
+{
+    public new void Say()
+    {
+        Console.WriteLine("C");
+    }
+}
+
+static void Main(string[] args)
+{
+    A x = new C();
+    x.Say();
+}
+
+```
+
+<details>
+<summary>Answer</summary>
+
+The output would be "**B**"
+
+**override**: virtual keyword must be defined to override the method. The method using override keyword that regardless of reference type(reference of base class or derived class) if it is instantiated with base class, the method of base class runs. Otherwise, the method of derived class runs.
+
+**new**: if the keyword is used by a method, unlike override keyword, the reference type is important. If it is instantiated with derived class and the reference type is base class, the method of base class runs. If it is instantiated with derived class and the reference type is derived class, the method of derived class runs. Namely, it is contrast of override keyword. En passant, if you forget or omit to add new keyword to the method, the compiler behaves by default as new keyword is used.
+
+</details>
+
 ## Entity Framework
 
 ### 1. What is Entity Framework?
