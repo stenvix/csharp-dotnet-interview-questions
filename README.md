@@ -95,6 +95,67 @@ The output would be "**B**"
 
 </details>
 
+
+### 6. Task vs ValueTask
+
+<details>
+<summary>Answer</summary>
+
+[https://devblogs.microsoft.com/dotnet/understanding-the-whys-whats-and-whens-of-valuetask/](https://devblogs.microsoft.com/dotnet/understanding-the-whys-whats-and-whens-of-valuetask/)
+</details>
+
+### 7. What is TaskStateMachine?
+
+<details>
+<summary>Answer</summary>
+
+[https://devblogs.microsoft.com/premier-developer/dissecting-the-async-methods-in-c/](https://devblogs.microsoft.com/premier-developer/dissecting-the-async-methods-in-c/)
+</details>
+
+### 8. IEnumerable vs ICollection vs IList vs IQueryable
+<details>
+<summary>Answer</summary>
+
+[https://medium.com/developers-arena/ienumerable-vs-icollection-vs-ilist-vs-iqueryable-in-c-2101351453db](https://medium.com/developers-arena/ienumerable-vs-icollection-vs-ilist-vs-iqueryable-in-c-2101351453db)
+
+[https://www.c-sharpcorner.com/UploadFile/78607b/difference-between-ienumerable-icollection-and-ilist-interf/](https://www.c-sharpcorner.com/UploadFile/78607b/difference-between-ienumerable-icollection-and-ilist-interf/)
+</details>
+
+### 9. Lowering in C#/.NET
+
+<details>
+<summary>Answer</summary>
+
+[https://mattwarren.org/2017/05/25/Lowering-in-the-C-Compiler/](https://mattwarren.org/2017/05/25/Lowering-in-the-C-Compiler/)
+</details>
+
+
+### 10. What is Garbage collection and how it works
+<details>
+<summary>Answer</summary>
+
+[https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/)
+
+[https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
+
+</details>
+
+### 11. What is Large object heap
+<details>
+<summary>Answer</summary>
+
+[https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap)
+
+</details>
+
+
+### 12. Middleware vs Filters
+<details>
+<summary>Answer</summary>
+
+[https://stackoverflow.com/questions/42582758/asp-net-core-middleware-vs-filters](https://stackoverflow.com/questions/42582758/asp-net-core-middleware-vs-filters)
+</details>
+
 ## Entity Framework
 
 ### 1. What is Entity Framework?
@@ -197,4 +258,90 @@ Advantage of Database First
 3. To add extra features in POCO entities you must either T4 modify template or use partial classes.
 4. Manual changes to the database are possible because the database defines your domain model. You can always update model from database.
 
+</details>
+
+## Patterns and Strategies
+
+### 1. What is eventual consistency?
+
+<details>
+<summary>Answer</summary>
+
+[https://en.wikipedia.org/wiki/Eventual_consistency](https://en.wikipedia.org/wiki/Eventual_consistency)
+</details>
+
+
+### 2. What is event sourcing?
+<details>
+<summary>Answer</summary>
+
+[https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
+</details>
+
+
+### 3. CQRS
+<details>
+<summary>Answer</summary>
+
+[https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+</details>
+
+### 4. Optimistic Concurrency vs Pessimistic Concurrency (locking)
+<details>
+<summary>Answer</summary>
+
+[https://agirlamonggeeks.com/2017/02/23/optimistic-concurrency-vs-pessimistic-concurrency-short-comparison/](https://agirlamonggeeks.com/2017/02/23/optimistic-concurrency-vs-pessimistic-concurrency-short-comparison/)
+
+[https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking](https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking)
+</details>
+
+## Security
+
+### 1. What is authentication?
+<details>
+<summary>Answer</summary>
+
+[https://auth0.com/intro-to-iam/what-is-authentication/](https://auth0.com/intro-to-iam/what-is-authentication/)
+
+[https://docs.microsoft.com/en-us/aspnet/core/security/authentication/](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/)
+</details>
+
+### 2. What is authorization?
+<details>
+<summary>Answer</summary>
+
+[https://auth0.com/intro-to-iam/what-is-authorization/](https://auth0.com/intro-to-iam/what-is-authorization/)
+
+[https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
+</details>
+
+
+### 3. Authentication vs. Authorization
+<details>
+<summary>Answer</summary>
+
+[https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization](https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization)
+</details>
+
+### 4. What is JWT?
+<details>
+<summary>Answer</summary>
+
+[https://jwt.io/introduction](https://jwt.io/introduction)
+</details>
+
+### 5. OWASP top 10
+<details>
+<summary>Answer</summary>
+
+[https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)
+</details>
+
+## Testing
+
+### 1. Mock vs Stub
+<details>
+<summary>Answer</summary>
+
+[https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub)
 </details>
