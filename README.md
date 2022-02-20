@@ -9,8 +9,13 @@
      - [What is an Interface?](#4.-What-is-an-interface?)
 - [Entity Framework](#entity-framework)
     - [What is Entity Framework?](#1-what-is-entity-framework)
+
+<br />
+
 ## Preface
 TODO
+
+<br />
 
 ## Basic Concepts
 
@@ -140,12 +145,19 @@ The output would be "**B**"
 
 </details>
 
-### 11. What is Large object heap
+### 11. What is Large object heap?
 <details>
 <summary>Answer</summary>
 
 [https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap)
 
+</details>
+
+### 12. lock(this) why is bad?
+<details>
+<summary>Answer</summary>
+
+[https://stackoverflow.com/questions/251391/why-is-lockthis-bad](https://stackoverflow.com/questions/251391/why-is-lockthis-bad)
 </details>
 
 
@@ -154,7 +166,32 @@ The output would be "**B**"
 <summary>Answer</summary>
 
 [https://stackoverflow.com/questions/42582758/asp-net-core-middleware-vs-filters](https://stackoverflow.com/questions/42582758/asp-net-core-middleware-vs-filters)
+
+[https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0])(https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
 </details>
+
+### 13. What is GAC?
+<details>
+<summary>Answer</summary>
+
+[https://docs.microsoft.com/en-us/dotnet/framework/app-domains/gac](https://docs.microsoft.com/en-us/dotnet/framework/app-domains/gac)
+</details>
+
+### 14. What is Just-In-Time(JIT) Compiler in .NET?
+<details>
+<summary>Answer</summary>
+
+[https://www.geeksforgeeks.org/what-is-just-in-time-jit-compiler-in-dot-net/](https://www.geeksforgeeks.org/what-is-just-in-time-jit-compiler-in-dot-net/)
+</details>
+
+### 15. Synchronization primitives
+<details>
+<summary>Answer</summary>
+
+[https://docs.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchronization-primitives](https://docs.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchronization-primitives)
+</details>
+
+<br />
 
 ## Entity Framework
 
@@ -260,6 +297,41 @@ Advantage of Database First
 
 </details>
 
+<br />
+
+## Databases
+
+### 1. Clustered and nonclustered indexes 
+<details>
+<summary>Answer</summary>
+
+[https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15)
+</details>
+
+
+### 2. Profiling and Optimizing SQL Queries
+<details>
+<summary>Answer</summary>
+
+[https://medium.com/scopedev/introduction-to-profiling-and-optimizing-sql-queries-for-software-engineers-3cf376ecc712](https://medium.com/scopedev/introduction-to-profiling-and-optimizing-sql-queries-for-software-engineers-3cf376ecc712)
+</details>
+
+### 3. What is the N+1 query problem?
+<details>
+<summary>Answer</summary>
+
+[https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping](https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping)
+</details>
+
+### 4. Database normalization
+<details>
+<summary>Answer</summary>
+
+[https://docs.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description](https://docs.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description)
+</details>
+
+<br />
+
 ## Patterns and Strategies
 
 ### 1. What is eventual consistency?
@@ -294,6 +366,8 @@ Advantage of Database First
 
 [https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking](https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking)
 </details>
+
+<br />
 
 ## Security
 
@@ -337,6 +411,15 @@ Advantage of Database First
 [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)
 </details>
 
+### 6. How HTTPS Works?
+<details>
+<summary>Answer</summary>
+
+[https://youtu.be/w0QbnxKRD0w](https://youtu.be/w0QbnxKRD0w)
+
+[https://howhttps.works//](https://howhttps.works)
+</details>
+
 ## Testing
 
 ### 1. Mock vs Stub
@@ -344,4 +427,11 @@ Advantage of Database First
 <summary>Answer</summary>
 
 [https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub)
+</details>
+
+### 2. AAA Pattern
+<details>
+<summary>Answer</summary>
+
+[https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80](https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80)
 </details>
